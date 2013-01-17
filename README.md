@@ -1,4 +1,3 @@
-schmitt
+Thomas Schmitt
 =======
-
-Thomas Schmitt's repo for the "Scientific Programming in Python" course
+SciLifeLab python course 2013
