@@ -9,8 +9,8 @@ from __future__ import print_function
 import sys
 import getopt
 
-from schmitt import loadEscalatorOutage
-from schmitt import countEscalatorOutageReason
+from schmitt.session2 import loadEscalatorOutage
+from schmitt.session2 import countEscalatorOutageReason
 
 def main(options,argv):
     """Prints faction of escalators outage in the New York city subway system with reason repair."""

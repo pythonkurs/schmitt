@@ -1,6 +1,8 @@
 setup.cfg
 setup.py
 schmitt/__init__.py
+schmitt/session2.py
+schmitt/session3.py
 schmitt.egg-info/PKG-INFO
 schmitt.egg-info/SOURCES.txt
 schmitt.egg-info/dependency_links.txt
@@ -8,4 +10,5 @@ schmitt.egg-info/entry_points.txt
 schmitt.egg-info/not-zip-safe
 schmitt.egg-info/requires.txt
 schmitt.egg-info/top_level.txt
+scripts/check_repo.py
 scripts/getting_data.py
