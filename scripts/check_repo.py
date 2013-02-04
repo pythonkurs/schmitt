@@ -26,7 +26,10 @@ def main(options,argv):
     repo = CourseRepo(surname)
     
     with directoryContext(workDir):
-        print(repo.check())
+        if repo.check():
+            print("PASS")
+        else:
+            print("FAIL")
     
     
 

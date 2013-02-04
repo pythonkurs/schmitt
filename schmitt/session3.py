@@ -43,13 +43,13 @@ class CourseRepo(object):
         
 
     def check(self):
-        """Returns PASS if all required files exist and FAIL otherwise."""
+        """Returns True if all required files exist and False otherwise."""
         
         import os.path
         
         for _file in self.required:
             
             if not os.path.exists(_file):
-                return "FAIL"
+                return False
         
-        return "PASS"
+        return True
