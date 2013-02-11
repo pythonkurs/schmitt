@@ -1,0 +1,6 @@
+The day with the most commits was 2013-01-23 with 40 commits. This is the second Wednesday of the course. 
+Wednesday is in general the most common day for commits. The most commits on Wednesdays were between 4 PM an 5 PM, which is also the most common time for commits in general.
+Two commits were done at 2 AM both by the user mahmudi. The most active user is alneberg with 27 commits closely followed by hugerth with 26 commits.
+The user warholm writes with an average of 93.25 characters the longest commit messages and the user Dalmo with an average of 6.8 the shortest.
+
+The data for this analysis was fetched 2013-02-11 at 11:20.
