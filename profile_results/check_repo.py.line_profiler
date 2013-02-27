@@ -1,0 +1,30 @@
+Timer unit: 1e-06 s
+
+File: scripts/check_repo.py
+Function: main at line 14
+Total time: 0.000257 s
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    14                                           @doProfile
+    15                                           def main(_options,argv):
+    16                                           
+    17                                           # if len(argv) != 1:
+    18                                           #         _printHelpAndExit()
+    19                                                   
+    20         1            3      3.0      1.2      workDir = argv[-1]
+    21                                               
+    22         1           26     26.0     10.1      if not os.path.isdir(workDir):
+    23                                                   print("{} doesn't exist or isn't a directory.".format(workDir),file=sys.stderr)
+    24                                                   exit(-1)
+    25                                               
+    26         1           58     58.0     22.6      surname = os.path.basename(os.path.normpath(workDir))
+    27                                               
+    28         1           29     29.0     11.3      repo = CourseRepo(surname)
+    29                                               
+    30         1           33     33.0     12.8      with directoryContext(workDir):
+    31         1           86     86.0     33.5          if repo.check():
+    32         1           22     22.0      8.6              print("PASS")
+    33                                                   else:
+    34                                                       print("FAIL")
+

@@ -1,0 +1,29 @@
+Profile
+PASS
+Filename: scripts/check_repo.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    14                             @doProfile
+    15                             def main(_options,argv):
+    16                             
+    17                             # if len(argv) != 1:
+    18                             #         _printHelpAndExit()
+    19     8.500 MB     0.000 MB           
+    20     8.500 MB     0.000 MB       workDir = argv[-1]
+    21                                 
+    22     8.500 MB     0.000 MB       if not os.path.isdir(workDir):
+    23                                     print("{} doesn't exist or isn't a directory.".format(workDir),file=sys.stderr)
+    24                                     exit(-1)
+    25                                 
+    26     8.500 MB     0.000 MB       surname = os.path.basename(os.path.normpath(workDir))
+    27                                 
+    28     8.508 MB     0.008 MB       repo = CourseRepo(surname)
+    29                                 
+    30     8.508 MB     0.000 MB       with directoryContext(workDir):
+    31     8.508 MB     0.000 MB           if repo.check():
+    32     8.512 MB     0.004 MB               print("PASS")
+    33                                     else:
+    34                                         print("FAIL")
+
+

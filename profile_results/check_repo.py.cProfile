@@ -1,0 +1,50 @@
+No profile
+PASS
+         80 function calls in 0.002 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 __future__.py:48(<module>)
+        1    0.000    0.000    0.000    0.000 __future__.py:74(_Feature)
+        7    0.000    0.000    0.000    0.000 __future__.py:75(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 check_repo.py:14(main)
+        1    0.001    0.001    0.002    0.002 check_repo.py:6(<module>)
+        7    0.000    0.000    0.000    0.000 genericpath.py:15(exists)
+        1    0.000    0.000    0.000    0.000 genericpath.py:38(isdir)
+        1    0.000    0.000    0.000    0.000 getopt.py:15(<module>)
+        1    0.000    0.000    0.000    0.000 getopt.py:38(GetoptError)
+        1    0.000    0.000    0.000    0.000 getopt.py:51(getopt)
+        1    0.000    0.000    0.000    0.000 posixpath.py:110(basename)
+        1    0.000    0.000    0.000    0.000 posixpath.py:312(normpath)
+        1    0.000    0.000    0.000    0.000 profiling.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 profiling.py:3(doProfile)
+        1    0.000    0.000    0.000    0.000 session3.py:10(directoryContext)
+        1    0.000    0.000    0.000    0.000 session3.py:13(__init__)
+        1    0.000    0.000    0.000    0.000 session3.py:17(__enter__)
+        1    0.000    0.000    0.000    0.000 session3.py:20(__exit__)
+        1    0.000    0.000    0.000    0.000 session3.py:23(CourseRepo)
+        1    0.000    0.000    0.000    0.000 session3.py:27(__init__)
+        1    0.000    0.000    0.000    0.000 session3.py:38(surname)
+        7    0.000    0.000    0.000    0.000 session3.py:42(<lambda>)
+        1    0.000    0.000    0.000    0.000 session3.py:45(check)
+        1    0.000    0.000    0.000    0.000 session3.py:8(<module>)
+        1    0.000    0.000    0.000    0.000 stat.py:24(S_IFMT)
+        1    0.000    0.000    0.000    0.000 stat.py:40(S_ISDIR)
+        1    0.000    0.000    0.000    0.000 {isinstance}
+        1    0.000    0.000    0.000    0.000 {map}
+        6    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        7    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {posix.chdir}
+        1    0.000    0.000    0.000    0.000 {posix.getcwd}
+        8    0.000    0.000    0.000    0.000 {posix.stat}
+        1    0.000    0.000    0.000    0.000 {print}
+
+

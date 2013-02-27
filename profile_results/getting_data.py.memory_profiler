@@ -1,0 +1,27 @@
+Profile
+Total outages: 33, outages with reason "Repair": 22, fraction: 0.666667
+Filename: scripts/getting_data.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    16                             @doProfile
+    17                             def main(_options,argv):
+    18                                 """Prints faction of escalators outage in the New York city subway system with reason repair."""
+    19     8.496 MB     0.000 MB       
+    20     8.496 MB     0.000 MB       try:
+    21    14.465 MB     5.969 MB           esculatorOutage = loadEscalatorOutage()
+    22                                 except Exception as e:
+    23                                     print("Unable to load escalators outage status.",file=sys.stderr)
+    24                                     print(e,file=sys.stderr)
+    25                                     exit(-1)
+    26                             
+    27    14.465 MB     0.000 MB       try:
+    28    14.480 MB     0.016 MB           repair,total = countEscalatorOutageReason(esculatorOutage)
+    29                                 except Exception as e:
+    30                                     print("Invalid outage status.",file=sys.stderr)
+    31                                     print(e,file=sys.stderr)
+    32                                     exit(-1)
+    33                             
+    34    14.484 MB     0.004 MB       print('Total outages: %d, outages with reason "Repair": %d, fraction: %f' %(total,repair,float(repair)/total))
+
+
