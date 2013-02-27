@@ -15,10 +15,10 @@ setup(name='schmitt',
       url='http://github.com/pythonkurs/schmitt',
       license='',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-      scripts = ['scripts/getting_data.py','scripts/check_repo.py'],
+      scripts = ['scripts/getting_data.py','scripts/check_repo.py','scripts/num_factors.py'],
       include_package_data=True,
       zip_safe=False,
-      install_requires=['untangle>=1.1','requests>=1.1'],
+      install_requires=['untangle>=1.1','requests>=1.1','ipython'],
       entry_points="""
       # -*- Entry points: -*-
       """,
